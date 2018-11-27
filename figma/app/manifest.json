@@ -1,0 +1,17 @@
+{
+    "id": "BVMAjAcYkiu",
+    "manifest_version": 2,
+    "name": "figma",
+    "version_name": "2.0",
+    "version_number": 2,
+    "sizing_mode": "fit_content",
+    "initial_height": 300,
+    "initial_width": 300,
+    "js_files": ["dist/app.js"],
+    "css_files": ["dist/app.css"],
+    "csp_sources": {
+        "frame_srcs": [
+            "https://www.figma.com/embed"
+        ]
+    }
+}
