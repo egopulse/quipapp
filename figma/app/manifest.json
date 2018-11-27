@@ -1,9 +1,9 @@
 {
     "id": "BVMAjAcYkiu",
-    "manifest_version": 2,
-    "name": "figma",
-    "version_name": "2.0",
-    "version_number": 2,
+    "manifest_version": 3,
+    "name": "Figma Live Embed",
+    "version_name": "3.0",
+    "version_number": 3,
     "sizing_mode": "fit_content",
     "initial_height": 300,
     "initial_width": 300,
