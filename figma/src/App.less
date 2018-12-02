@@ -4,12 +4,28 @@
   flex-direction: column;
   justify-content: center;
 
-  .input {
+  .inputPanel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin: 0 0 24px 0 !important;
-    max-width: 300px;
+    label {
+      margin: 0 4px 0 0;
+    }
+    input {
+      margin: 0 16px 0 0;
+    }
+    .inputUrl {
+      max-width: 500px;
+    }
+    .inputSize {
+      max-width: 150px;
+    }
   }
 
   .iframe {
-    border: 0
-  }
+    border: 0;
+    width: 1280px;
+    flex: 1 1 auto;
+  } 
 }

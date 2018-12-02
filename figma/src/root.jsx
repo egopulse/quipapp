@@ -4,13 +4,17 @@ import App from "./App.jsx";
 class RootRecord extends quip.apps.RootRecord {
   static getProperties() {
     return {
-      url: "string"
+      url: "string",
+      width: "number",
+      height: "number"
     };
   }
 
   static getDefaultProperties() {
     return {
       url: undefined,
+      width: 1280,
+      height: 600
     };
   }
 }
