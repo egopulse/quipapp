@@ -83,7 +83,7 @@ export default class App extends React.Component {
   };
 
   handleChangeWidth = e => {
-    const width = e.target.value ? parseInteger(wide.target.value) : 0;
+    const width = e.target.value ? parseInt(e.target.value) : 0;
     if (width > 0 && width !== this.state.width) {
       quip.apps.getRootRecord().set("width", width);
       this.setState({ width });
